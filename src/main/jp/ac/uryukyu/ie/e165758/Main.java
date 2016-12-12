@@ -14,6 +14,8 @@ public class Main {
                 System.out.println("\"str\"に\"Null\"が代入されています。");
                 System.out.println("以下スタックトレース");
                 e.printStackTrace();
+        }catch (NumberFormatException e){
+            e.printStackTrace();
         }
     }
 }
